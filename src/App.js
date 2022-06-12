@@ -1,25 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import './main.css';
+import Blog from './blog/Blog';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          小鱼的网站-待定
-        </a>
-      </header>
-    </div>
-  );
+import Button from '@mui/material/Button';
+
+
+const App = () => {
+  return <Blog/>;
 }
 
 export default App;
